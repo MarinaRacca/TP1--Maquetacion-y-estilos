@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LULÚ-COSMÉTICA NATURAL</title>
+        <link rel="stylesheet" href="Css/Estilos.css">
+        <script src="Css/display.js"></script>
+        <style>
+            .container>div{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            flex-direction: column;
+            margin: 5px;
+            padding: 5px;
+            width: 350px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                
+                <nav >
+                    <a href="Index.html" target="_self"><img src="IMAGENES/ICONO.jpg" style="width: 200px;"></a>                    
+                </nav>                                
+                <nav style= "border: 5px solid green; margin-right: 45px;">
+                    <a href="" ><button onclick="Inicio()">INICIO DE SESIÓN</button> </a> <hr>
+                    <a href=""><button onclick="Regis()">REGISTRARSE</button></a>
+                </nav>                
+            </header>
+            <nav>
+                <a href="Index.html">INICIO</a>
+                <a href="Productos.html"> PRODUCTOS</a>
+                <a href="ENVIOS.html">COMPRAS Y ENVIOS</a>
+                <a href="Contacto.html" >CONTACTO</a>
+                <a href="Recomendaciones.html">RECOMENDACIONES</a>    
+            </nav>
+        </main>
+        <section>
+            <p style="text-align: center;">Armá tu kit y hacé el cambio hacia un baño libre de plástico!</p>
+            
+            <div class="container" style="margin-top: 10px;">
+                
+                <img src="IMAGENES/ArmaTuKit.jpg">
+                <img src="IMAGENES/jab.jpg" alt="">
+                <img src="IMAGENES/Stock2.jpg" >
+                <img src="IMAGENES/ArmaTuKit (2).jpg" >
+            </div></section>
+        <section>
+                  
+        <h3>PROMOCIONES</h3>
+        <div class="container">
+            <div style="float:left; border-top:solid 5px palevioletred;">
+                    <h4> Promo I</h4>
+                    <img src="IMAGENES/SanValentín.jpg" >
+                    <p><ul><li>1 agua de rosas</li><li>1 jabón corporal</li><li>3 discos desmaquillantes</li><br> $600</ul>
+                    <button onclick="showAlert()">COMPRAR</button></p>
+                    
+            </div>
+            <div style="float:left ;border-top:solid 5px palevioletred;">
+                    <h4> Promo II </h4> 
+                    <img src="IMAGENES/SanValentín2.jpg">
+                    <p><ul>
+                        <li>3 shampoo con aroma </li><br> $1160
+                    </ul>
+                    <button onclick="showAlert()">COMPRAR</button></p>
+                    
+            </div>
+            <div style="float:left;border-top:solid 5px palevioletred;">
+                    <h4> Promo III </h4> 
+                    <img src="IMAGENES/SanValentin3.jpg" > 
+                    <p><ul><li>2 shampoo con aroma</li><li>1 desodorante de 100g</li> <br> $1045</ul>
+                    <button onclick="showAlert()">COMPRAR</button>    </p>
+                    
+            </div>
+        </div>
+
+        </section>
+        
+        <footer>
+            <nav>
+                <aside style="float:right; text-align: left;">            
+                    <a href="https://www.instagram.com/_lulucosmetica/" target="_blank" onclick="showConfirm()"><img src="IMAGENES/INSTA.jpeg" width="100px"></a>
+                    <a href="https://www.facebook.com/_lulucosmetica-100252995518978" target="_blank" onclick="showConfirm()"> <img src="IMAGENES/FACEBOOK.png" width="100px"></a>
+                    <address> Olivos, Gran Buenos Aires</address>
+                </aside>
+                    <li><a href="Index.html">INICIO</a> </li>
+                    <li><a href="Productos.html">PRODUCTOS</a> </li> 
+                    <li><a href="Envios.html">COMPRAS Y ENVIOS</a></li>
+                    <li><a href="Contacto.html">CONTACTO</a></li>
+                    <li><a href="Peticiones.html">PETICIONES</a></li>
+                    <li><a href="Recomendaciones.html">RECOMENDACIONES</a>  </li>
+                </ul>         
+            </nav>
+        </footer>
+</body>
+

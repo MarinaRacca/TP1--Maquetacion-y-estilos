@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LULU-COSMETICANATURAL</title>
+    <link rel="stylesheet" href="Css/Estilos.css">
+    <script src="Css/display.js"></script>
+</head>
+<body>
+    <main><nav style="background-color: white; text-align: left;">
+        <a href="Index.html" target="_self"><img src="IMAGENES/ICONO.jpg" width="200"></a> </nav>
+        <nav>
+            <a href="Index.html">INICIO</a>
+            <a href="Productos.html"> PRODUCTOS</a>
+            <a href="Envios.html">COMPRAS Y ENVIOS</a>
+            <a href="Contacto.html">CONTACTO</a>
+            <a href="Recomendaciones.html">RECOMENDACIONES</a>
+        </nav>
+    </main>
+<h3>CONTACTO</h3>
+<section>
+    <h3> ATENCIÓN AL CLIENTE- CONTACTATE CON NOSOTROS </h3>
+    <form action="procesar_datos.php" method="POST">
+        <label> Nombre y Apellido:
+            <input type="text" required>
+         </label> <br> <br>
+         <label>Correo Electrónico:
+             <input type="email" name="mail" required>
+         </label> <br> <br>
+         <label> Ingrese comentario: <br>
+            <textarea name="comentarios" required minlength="1" maxlength="500" rows="10" cols="51"></textarea>
+        </label> <br> <br>
+         <button>Enviar</button>
+    </form>
+    <section> <h3> REDES SOCIALES</h3>
+        <article><h4>¡Seguinos en nuestras redes para recibir todas las novedades!</h4>
+        <nav>INSTAGRAM : <a href="https://www.instagram.com/_lulucosmetica/" target="_blank">@_lulucosmetica</a></nav>
+    </article> </section>
+</section><br>
+<footer >
+    <nav>
+        <aside style="float:right; text-align: left;">            
+            <a href="https://www.instagram.com/_lulucosmetica/" target="_blank" onclick="showConfirm()"><img src="IMAGENES/INSTA.jpeg" width="100"></a>
+            <a href="https://www.facebook.com/_lulucosmetica-100252995518978" target="_blank" onclick="showConfirm()"> <img src="IMAGENES/FACEBOOK.png" width="100px"></a>
+            <address> Olivos, Gran Buenos Aires</address>
+        </aside>
+        <ul>
+            <li><a href="Index.html">INICIO</a></li>
+            <li><a href="Productos.html">PRODUCTOS</a></li> 
+            <li><a href="Envios.html">COMPRAS Y ENVIOS</a></li>
+            <li><a href="Contacto.html">CONTACTO</a></li>
+            <li><a href="Peticiones.html">PETICIONES</a></li>
+            <li><a href="Recomendaciones.html">RECOMENDACIONES</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>
