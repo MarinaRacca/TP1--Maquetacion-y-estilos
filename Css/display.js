@@ -21,7 +21,7 @@ function Inicio(){
             document.write ("Bienvenido a su cuenta");
         }}
 function Regis(){
-    alert ("Contactate con nostros para que te creemos un Usuario")
+    alert ("Contactate con nosotros para que te creemos un Usuario")
 }  
 function ver(n) {
     document.getElementById("subseccion"+n).style.display="block"
